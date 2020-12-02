@@ -12,6 +12,8 @@ Video | Slides |
 [1](https://youtu.be/_CeAqiDPu74)|[pdf](./lectureSlides/L01.pdf) [slides](./lectureSlides/L01-slides.pdf)|
 [2](https://youtu.be/crledBCWgMI)| |
 [3a](https://youtu.be/PNFAS4-U99A) [3b](https://youtu.be/zM0EDbMnA5U)| |
+[4](https://youtu.be/VXn4MV0DeJI)| |
+[5](https://youtu.be/wrj2jbPoVVw)| [pdf](./lectureSlides/L02.pdf) |
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
 
