@@ -14,6 +14,7 @@ Video | Slides |
 [3a](https://youtu.be/PNFAS4-U99A) [3b](https://youtu.be/zM0EDbMnA5U)| |
 [4](https://youtu.be/VXn4MV0DeJI)| |
 [5](https://youtu.be/wrj2jbPoVVw)| [pdf](./lectureSlides/L02.pdf) |
+[5](https://youtu.be/f37uZQYZK3E)| [pdf](./lectureSlides/L04.pdf) |
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
 
@@ -58,6 +59,7 @@ next week to `moodle`. The entire process will be explained to you in the
 upcoming lab session on 03-12-2020.
 
 1. [Assignment 1](./assignments/assignment01.pdf)
+2. [Assignment 2](./assignments/assignment02.pdf)
 
 
 ## References
