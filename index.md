@@ -57,7 +57,7 @@ Datatypes - datatype based function implementations - performance criteria for p
 
 ( [Video](https://youtu.be/ys4pO6Y33zE), [Slides](./lectureSlides/L05.pdf) )
 
-Datatypes - type conversion - operator precedence 
+Datatypes - type conversion - operator precedence
 
 ( [04-cout-precision.cpp](./code/04-cout-precision.cpp), [05-infinite-boolean.cpp](./code/05-infinite-boolean.cpp), [06-enum-datatype.cpp](./code/06-enum-datatype.cpp), [07-operators.cpp](./code/07-operators.cpp), [08-operatorPrecedence.cpp](./code/08-operatorPrecedence.cpp), [09a-typeConversion.cpp](./code/09a-typeConversion.cpp), [09-constVariables.cpp](./code/09-constVariables.cpp) )
 
@@ -113,6 +113,10 @@ g++ --version
 sudo apt-get install geany
 ```
 
+## Quiz Papers
+
+- 2019
+   - [Quiz 1](./quizPapers/quiz1-2019.pdf)
 
 ## References
 
