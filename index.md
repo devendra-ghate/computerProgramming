@@ -51,7 +51,7 @@ Compilation process - preprocessing - compilation - linking
 
 Datatypes - datatype based function implementations - performance criteria for programs - speed - memory usage - energy consumption - accuracy
 
-( [01-variable.cpp](./code/01-variable.cpp), [02-datatypes.cpp](./code/02-datatypes.cpp), [03-range-datatypes.cpp](./code/03-range-datatypes.cpp) )
+( [01-variable.cpp](./code/01-variable.cpp) )
 
 #### Lecture 8
 
@@ -60,6 +60,21 @@ Datatypes - datatype based function implementations - performance criteria for p
 Datatypes - type conversion - operator precedence
 
 ( [04-cout-precision.cpp](./code/04-cout-precision.cpp), [05-infinite-boolean.cpp](./code/05-infinite-boolean.cpp), [06-enum-datatype.cpp](./code/06-enum-datatype.cpp), [07-operators.cpp](./code/07-operators.cpp), [08-operatorPrecedence.cpp](./code/08-operatorPrecedence.cpp), [09a-typeConversion.cpp](./code/09a-typeConversion.cpp), [09-constVariables.cpp](./code/09-constVariables.cpp) )
+
+#### Lecture 9
+
+introduction to arrays - basic discussion on integer and character representation - size of datatypes
+
+( [Video](https://youtu.be/yJz1mbZ94Zc) )
+
+( [10-studentMarks.cpp](./code/10-studentMarks.cpp), [02-datatypes.cpp](./code/02-datatypes.cpp), [03-range-datatypes.cpp](./code/03-range-datatypes.cpp) )
+
+
+<!--#### Lecture 8-->
+
+<!--( [Video](), [Slides]() )-->
+
+
 
 <!--#### Lecture 8-->
 
@@ -124,8 +139,6 @@ sudo apt-get install geany
 
 ## Programs
 
-
-[10-studentMarks.cpp](./code/10-studentMarks.cpp)
 
 [11a-arrayMemoryAccess.cpp](./code/11a-arrayMemoryAccess.cpp)
 
