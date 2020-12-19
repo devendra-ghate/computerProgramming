@@ -65,14 +65,16 @@ Datatypes - type conversion - operator precedence
 
 introduction to arrays - basic discussion on integer and character representation - size of datatypes
 
-( [Video](https://youtu.be/yJz1mbZ94Zc) )
+( [Video](https://youtu.be/yJz1mbZ94Zc), No slides for this lecture )
 
 ( [10-studentMarks.cpp](./code/10-studentMarks.cpp), [02-datatypes.cpp](./code/02-datatypes.cpp), [03-range-datatypes.cpp](./code/03-range-datatypes.cpp) )
 
 
-<!--#### Lecture 8-->
+#### Lecture 10 
 
-<!--( [Video](), [Slides]() )-->
+Binary representation of integers - fixed point representation of real numbers - floating point representation of real numbers
+
+( [Video](https://youtu.be/T0WLDDcAEDU), No slides for this lecture)
 
 
 
