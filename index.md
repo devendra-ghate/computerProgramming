@@ -77,6 +77,20 @@ Binary representation of integers - fixed point representation of real numbers -
 ( [Video](https://youtu.be/T0WLDDcAEDU), No slides for this lecture)
 
 
+#### Lecture 11
+
+operators - relational operators
+
+( [Video](https://youtu.be/HwYuwPPmRE8) No slides for this lecture)
+
+( [19-mathFunctions.cpp](./code/19-mathFunctions.cpp), [20-relationalOperators.cpp](./code/20-relationalOperators.cpp), [21-logicalOperators.cpp](./code/21-logicalOperators.cpp), [22-unaryOperators.cpp](./code/22-unaryOperators.cpp) )
+
+
+
+
+#### Lecture 12
+
+
 
 <!--#### Lecture 8-->
 
@@ -159,14 +173,6 @@ sudo apt-get install geany
 [17-2dArray.cpp](./code/17-2dArray.cpp)
 
 [18-saveMemory-loop.cpp](./code/18-saveMemory-loop.cpp)
-
-[19-mathFunctions.cpp](./code/19-mathFunctions.cpp)
-
-[20-relationalOperators.cpp](./code/20-relationalOperators.cpp)
-
-[21-logicalOperators.cpp](./code/21-logicalOperators.cpp)
-
-[22-unaryOperators.cpp](./code/22-unaryOperators.cpp)
 
 [23-assignmentOperators.cpp](./code/23-assignmentOperators.cpp)
 
