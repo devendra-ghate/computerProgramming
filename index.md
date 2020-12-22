@@ -70,7 +70,7 @@ introduction to arrays - basic discussion on integer and character representatio
 ( [10-studentMarks.cpp](./code/10-studentMarks.cpp), [02-datatypes.cpp](./code/02-datatypes.cpp), [03-range-datatypes.cpp](./code/03-range-datatypes.cpp) )
 
 
-#### Lecture 10 
+#### Lecture 10
 
 Binary representation of integers - fixed point representation of real numbers - floating point representation of real numbers
 
@@ -81,16 +81,23 @@ Binary representation of integers - fixed point representation of real numbers -
 
 operators - relational operators
 
-( [Video](https://youtu.be/HwYuwPPmRE8) No slides for this lecture)
+( [Video](https://youtu.be/HwYuwPPmRE8), [Slides](./lectureSlides/L06.pdf) )
 
 ( [19-mathFunctions.cpp](./code/19-mathFunctions.cpp), [20-relationalOperators.cpp](./code/20-relationalOperators.cpp), [21-logicalOperators.cpp](./code/21-logicalOperators.cpp), [22-unaryOperators.cpp](./code/22-unaryOperators.cpp) )
 
-
-
-
 #### Lecture 12
 
+Operators - math functions
 
+( [Video](https://youtu.be/vEyxkQeokVg), [Slides](./lectureSlides/L07.pdf) )
+
+#### Lecture 13
+
+arrays - loops
+
+<!--( [Video](), [Slides]() )-->
+
+( [11a-arrayMemoryAccess.cpp](./code/11a-arrayMemoryAccess.cpp), [11-arrayInputManipulation.cpp](./code/11-arrayInputManipulation.cpp), [12-forloop.cpp](./code/12-forloop.cpp), [13-variableForLoop.cpp](./code/13-variableForLoop.cpp), [14-wrongForLoop.cpp](./code/14-wrongForLoop.cpp), [15-newForLoops.cpp](./code/15-newForLoops.cpp), [16-infiniteLoop.cpp](./code/16-infiniteLoop.cpp) )
 
 <!--#### Lecture 8-->
 
@@ -155,20 +162,6 @@ sudo apt-get install geany
 
 ## Programs
 
-
-[11a-arrayMemoryAccess.cpp](./code/11a-arrayMemoryAccess.cpp)
-
-[11-arrayInputManipulation.cpp](./code/11-arrayInputManipulation.cpp)
-
-[12-forloop.cpp](./code/12-forloop.cpp)
-
-[13-variableForLoop.cpp](./code/13-variableForLoop.cpp)
-
-[14-wrongForLoop.cpp](./code/14-wrongForLoop.cpp)
-
-[15-newForLoops.cpp](./code/15-newForLoops.cpp)
-
-[16-infiniteLoop.cpp](./code/16-infiniteLoop.cpp)
 
 [17-2dArray.cpp](./code/17-2dArray.cpp)
 
