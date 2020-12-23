@@ -114,6 +114,7 @@ upcoming lab session on 03-12-2020.
 
 1. [Assignment 1](./assignments/assignment01.pdf)
 2. [Assignment 2](./assignments/assignment02.pdf)
+3. [Assignment 3](./assignments/assignment-03.pdf)
 
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
