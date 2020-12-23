@@ -93,9 +93,9 @@ Operators - math functions
 
 #### Lecture 13
 
-arrays - loops
+arrays - `for` loops
 
-<!--( [Video](), [Slides]() )-->
+( [Video](https://youtu.be/QqIMyF1ubX0), No slides for this lecture )
 
 ( [11a-arrayMemoryAccess.cpp](./code/11a-arrayMemoryAccess.cpp), [11-arrayInputManipulation.cpp](./code/11-arrayInputManipulation.cpp), [12-forloop.cpp](./code/12-forloop.cpp), [13-variableForLoop.cpp](./code/13-variableForLoop.cpp), [14-wrongForLoop.cpp](./code/14-wrongForLoop.cpp), [15-newForLoops.cpp](./code/15-newForLoops.cpp), [16-infiniteLoop.cpp](./code/16-infiniteLoop.cpp) )
 
