@@ -99,6 +99,15 @@ arrays - `for` loops
 
 ( [11a-arrayMemoryAccess.cpp](./code/11a-arrayMemoryAccess.cpp), [11-arrayInputManipulation.cpp](./code/11-arrayInputManipulation.cpp), [12-forloop.cpp](./code/12-forloop.cpp), [13-variableForLoop.cpp](./code/13-variableForLoop.cpp), [14-wrongForLoop.cpp](./code/14-wrongForLoop.cpp), [15-newForLoops.cpp](./code/15-newForLoops.cpp), [16-infiniteLoop.cpp](./code/16-infiniteLoop.cpp) )
 
+#### Lecture 14
+
+`while` loops - `do while` loops - nested `for` loops - new `for` syntax
+
+( [Video](https://youtu.be/m2bkvuq6vMw), [Slides](./lectureSlides/L08.pdf) )
+
+( [25-whileLoop.cpp](./code/25-whileLoop.cpp), [26-dowhileLoop.cpp](./code/26-dowhileLoop.cpp) )
+
+
 <!--#### Lecture 8-->
 
 <!--( [Video](), [Slides]() )-->
@@ -114,7 +123,12 @@ upcoming lab session on 03-12-2020.
 
 1. [Assignment 1](./assignments/assignment01.pdf)
 2. [Assignment 2](./assignments/assignment02.pdf)
-3. [Assignment 3](./assignments/assignment-03.pdf)
+3. [Assignment 3](./assignments/assignment-03.pdf) [Video](https://youtu.be/o2Dvm9H_uek)
+
+
+## Interesting Links
+
+- [Greatest Women Programmers](https://www.hackerearth.com/blog/developers/top-women-programmers-history/)
 
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
@@ -171,10 +185,6 @@ sudo apt-get install geany
 [23-assignmentOperators.cpp](./code/23-assignmentOperators.cpp)
 
 [24-checkOddOrEven.cpp](./code/24-checkOddOrEven.cpp)
-
-[25-whileLoop.cpp](./code/25-whileLoop.cpp)
-
-[26-dowhileLoop.cpp](./code/26-dowhileLoop.cpp)
 
 [27-hashDefine.cpp](./code/27-hashDefine.cpp)
 
