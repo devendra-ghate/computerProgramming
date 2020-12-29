@@ -125,11 +125,24 @@ upcoming lab session on 03-12-2020.
 2. [Assignment 2](./assignments/assignment02.pdf)
 3. [Assignment 3](./assignments/assignment-03.pdf) [Video](https://youtu.be/o2Dvm9H_uek)
 
+## Quiz
+
+1. [Quiz 1](./quiz1.html)
 
 ## Interesting Links
 
 - [Greatest Women Programmers](https://www.hackerearth.com/blog/developers/top-women-programmers-history/)
+- [Ariane disaster](https://itsfoss.com/a-floating-point-error-that-caused-a-damage-worth-half-a-billion/)
 
+In a nutshell:
+
+> A 64-bit floating point number relating to the horizontal velocity of the
+> rocket with respect to the platform was converted to a 16 bit signed integer.
+> The number was larger than 32,767, the largest integer storable in a 16 bit
+> signed integer, and thus the conversion failed. Programming was done in a
+> language called `Ada`.
+
+A list of major software bugs can be found on this [wiki](https://en.wikipedia.org/wiki/List_of_software_bugs).
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
 
