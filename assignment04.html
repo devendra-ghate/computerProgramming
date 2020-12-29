@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Assignment 4</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="./pandoc-github.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Assignment 4</h1>
+<p class="date">29/12/2020</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#q1.">Q1.</a></li>
+<li><a href="#q2">Q2</a></li>
+<li><a href="#q3">Q3</a></li>
+</ul>
+</nav>
+<section id="q1." class="level2">
+<h2>Q1.</h2>
+<p>Write a program to calculate and display the inner product and the outer product of two vectors <span class="math inline">\(\bar{a}\)</span> and <span class="math inline">\(\bar{b}\)</span> of any size <span class="math inline">\(n\)</span>. We define, <span class="math inline">\(a_i = (-1)^i 2i\)</span> and <span class="math inline">\(b_i = (-1)^i i/2\)</span> for <span class="math inline">\(i \in [1,n]\)</span>. The input of the program is <span class="math inline">\(n\)</span> and the output should be the dot product (first line) followed by the matrix resulting from the cross product.</p>
+<p>Sample output:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="va">$echo</span> <span class="ex">3</span> <span class="kw">|</span> <span class="ex">./a.out</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="ex">14</span></a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="ex">1</span>       -2      3</a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="ex">-2</span>      4       -6</a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="ex">3</span>       -6      9</a></code></pre></div>
+<p>Wikipedia entries on inner product (also known as dot product) and outer product can be found <a href="https://en.wikipedia.org/wiki/Dot_product">here</a> and <a href="https://en.wikipedia.org/wiki/Outer_product">here</a>.</p>
+<p><strong>Note</strong>: Use <code>define</code> macro to make your program work for any <code>N</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><a class="sourceLine" id="cb2-1" title="1"><span class="pp">#define N </span><span class="dv">100000</span></a>
+<a class="sourceLine" id="cb2-2" title="2"></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="dt">int</span> main(){</a>
+<a class="sourceLine" id="cb2-4" title="4">   <span class="dt">double</span> a[N], b[N];</a>
+<a class="sourceLine" id="cb2-5" title="5">   .</a>
+<a class="sourceLine" id="cb2-6" title="6">   .</a>
+<a class="sourceLine" id="cb2-7" title="7">   .</a>
+<a class="sourceLine" id="cb2-8" title="8">   <span class="cf">return</span> <span class="dv">0</span>;</a>
+<a class="sourceLine" id="cb2-9" title="9">}</a></code></pre></div>
+<p>Now the program can be made to work for any user-given <span class="math inline">\(n\)</span> upto <span class="math inline">\(100000\)</span>.</p>
+</section>
+<section id="q2" class="level2">
+<h2>Q2</h2>
+<p>Write a program to calculate the inner product of <span class="math inline">\(\bar{a}\)</span> and <span class="math inline">\(\bar{b}\)</span>, where, <span class="math inline">\(a_i = \sin{((i-1)\pi/(n-1))}\)</span> and <span class="math inline">\(b_i = \cos{((i-1)\pi/(n-1))}\)</span> for <span class="math inline">\(i \in [1,n]\)</span>. Input to the program is a single number <span class="math inline">\(n\)</span>, and the output of the program should be the dot product (a single number). Program should run for any <span class="math inline">\(n \le 10^7\)</span>.</p>
+<p><strong>Note 1</strong>: Value of <span class="math inline">\(\pi\)</span> should be used from <code>cmath</code> header file. <strong>Note 2</strong>: Run the program for increasing <span class="math inline">\(n\)</span>. For example, <span class="math inline">\(n={10^p, 1 &lt; p \le 7}\)</span>. What is the effect on the answer? Can you explain the behaviour of the error you get?</p>
+</section>
+<section id="q3" class="level2">
+<h2>Q3</h2>
+<p>Consider an experiment where velocity of an object is measured at some time instances.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Time</th>
+<th style="text-align: center;">0.0</th>
+<th style="text-align: center;">0.1</th>
+<th style="text-align: center;">0.2</th>
+<th style="text-align: center;">0.3</th>
+<th style="text-align: center;">0.4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Velocity</td>
+<td style="text-align: center;">-0.10290</td>
+<td style="text-align: center;">0.37364</td>
+<td style="text-align: center;">2.43748</td>
+<td style="text-align: center;">3.93836</td>
+<td style="text-align: center;">3.31230</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">0.5</th>
+<th style="text-align: center;">0.6</th>
+<th style="text-align: center;">0.7</th>
+<th style="text-align: center;">0.8</th>
+<th style="text-align: center;">0.9</th>
+<th style="text-align: center;">1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">5.49472</td>
+<td style="text-align: center;">5.43325</td>
+<td style="text-align: center;">6.39321</td>
+<td style="text-align: center;">9.06048</td>
+<td style="text-align: center;">9.36416</td>
+<td style="text-align: center;">9.52066</td>
+</tr>
+</tbody>
+</table>
+<p>Now, looking the measurements, it is difficult to tell, what is the governing law that can relate the velocity to time. In other words, we don’t know <span class="math inline">\(v(t)\)</span>. We also note that the velocity measurements are not accurate. Every measurement instrument has some least count and also there are random errors. Hence, at a givem time instant, the velocity of the object is not exactly equal to the velocity measured at that instant, but is in the neighbourhood of the reported velocity.</p>
+<p>Such situations are very common in engineering. Least squares method<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> is the most common way to find the closest approximation to <span class="math inline">\(v(t)\)</span> <strong>in some sense</strong>. However, first we have to assume the functional form of the function. Let us assume a linear form <em>i.e.</em> <span class="math inline">\(v = a t + b\)</span>, where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> can be found using the formula at the end of the question. Once <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are known, we have an estimate of <span class="math inline">\(v(t)\)</span>. We can given any <span class="math inline">\(t_0\)</span> and get the corresponding <span class="math inline">\(v_0\)</span>. The estimate will be accurate while <span class="math inline">\(t_0\)</span> is close to the range of <span class="math inline">\(t\)</span> in which measurements are performed.</p>
+<p>Store the time data in the variable <code>t</code> (array of size 11), velocity data in the variable <code>v</code> (array of size 11) and the number of data points in the variable <span class="math inline">\(n\)</span>. <span class="math inline">\(t\)</span> and <span class="math inline">\(v\)</span> data should be initialized in the program during the declaration of variable.</p>
+<p>Method: These <span class="math inline">\(n\)</span> data points can be modelled using the equation <span class="math inline">\(v = at + b\)</span>. Your program should find the coefficients <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> using the equations given below</p>
+<p><span class="math display">\[ a = \frac{ n \sum_{i=1}^{n} t_i v_i - (\sum_{i=1}^{n} t_i )(\sum_{i=1}^{n}
+v_i)}{n\sum_{i=1}^{n} t_i^2 - (\sum_{i=1}^{n} t_i)^2} , b = \frac{1}{n} \left(
+\sum_{i=1}^{n} v_i - a \sum_{i=1}^{n} t_i \right) . \]</span></p>
+<p>Write a program for which input is time (<span class="math inline">\(t\)</span>) and outputs velocity at that time.</p>
+</section>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>This method can be considered as the foundation of many machine learning algorithms. Of course, there are a lot more complexities involved before you get there.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+</body>
+</html>

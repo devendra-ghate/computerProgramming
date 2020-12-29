@@ -123,7 +123,8 @@ upcoming lab session on 03-12-2020.
 
 1. [Assignment 1](./assignments/assignment01.pdf)
 2. [Assignment 2](./assignments/assignment02.pdf)
-3. [Assignment 3](./assignments/assignment-03.pdf) [Video](https://youtu.be/o2Dvm9H_uek)
+3. [Assignment 3](./assignments/assignment-03.pdf) [Video recording of Lab Session](https://youtu.be/o2Dvm9H_uek)
+4. [Assignment 4](./assignment04.html)
 
 ## Quiz
 
