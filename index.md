@@ -107,6 +107,22 @@ arrays - `for` loops
 
 ( [25-whileLoop.cpp](./code/25-whileLoop.cpp), [26-dowhileLoop.cpp](./code/26-dowhileLoop.cpp) )
 
+#### Lecture 15
+
+2D Array storage - Row/Column major - `if` - nested `if` - `if-else` statements
+
+( [Video](https://youtu.be/4l1wirfb7l0), [Slides](./lectureSlides/L09.pdf) )
+
+( [17-2dArray.cpp](./code/17-2dArray.cpp), [29-ifStatement.cpp](./code/29-ifStatement.cpp) )
+
+#### Lecture 16
+
+`switch` - `break` - `continue`
+
+( [Video](https://youtu.be/porH5TEAako) )
+
+( [30a-break.cpp](./code/30a-break.cpp), [30b-continue.cpp](./code/30b-continue.cpp), [30-switch.cpp](./code/30-switch.cpp) )
+
 
 <!--#### Lecture 8-->
 
@@ -192,8 +208,6 @@ sudo apt-get install geany
 ## Programs
 
 
-[17-2dArray.cpp](./code/17-2dArray.cpp)
-
 [18-saveMemory-loop.cpp](./code/18-saveMemory-loop.cpp)
 
 [23-assignmentOperators.cpp](./code/23-assignmentOperators.cpp)
@@ -203,14 +217,6 @@ sudo apt-get install geany
 [27-hashDefine.cpp](./code/27-hashDefine.cpp)
 
 [28-identityMatrix.cpp](./code/28-identityMatrix.cpp)
-
-[29-ifStatement.cpp](./code/29-ifStatement.cpp)
-
-[30a-break.cpp](./code/30a-break.cpp)
-
-[30b-continue.cpp](./code/30b-continue.cpp)
-
-[30-switch.cpp](./code/30-switch.cpp)
 
 [31-functions.cpp](./code/31-functions.cpp)
 
