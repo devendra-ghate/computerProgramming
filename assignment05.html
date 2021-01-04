@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2021-04-01" />
+  <title>Assignment 5</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="./pandoc-github.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Assignment 5</h1>
+<p class="date">04/01/2021</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#q1.">Q1.</a></li>
+<li><a href="#q2.">Q2.</a></li>
+<li><a href="#q3.">Q3.</a></li>
+</ul>
+</nav>
+<section id="q1." class="level2">
+<h2>Q1.</h2>
+<p>The Kingdom of Neutronia, where the unit of currency is the tvarp, has the following income tax code:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tax Slab</th>
+<th>Tax Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Upto 5,000 tvarps,</td>
+<td>0% tax</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">next 10,000 tvarps,</td>
+<td>10% tax</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">next 20,000 tvarps,</td>
+<td>15% tax</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tvarps after 35,000</td>
+<td>20% tax</td>
+</tr>
+</tbody>
+</table>
+<p>For example, someone earning 38,000 tvarps would owe</p>
+<p><span class="math display">\[5000\times0 + 10000\times0.10 + 20000\times0.15 + 3000\times0.2 = 4600 \mbox{tvarps.}\]</span></p>
+<p>Write a program that uses a loop to solicit incomes and to report tax owed. Assume that user always inputs an integer. The loop should terminate when the user inputs a negative number. The program should work for all possible integer values. Sample output:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1">$ <span class="bu">echo</span> 38000 -1 <span class="kw">|</span><span class="ex">./a.out</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="ex">4600</span></a></code></pre></div>
+<p><strong>Note 1</strong>: Can you write the program without using <code>if-else</code> statements? It is not necessary for submission of the program, but it is interesting to develop an algorithm without using <code>if-else</code> statements. If you do write such code, compare the pros and cons of that algorithm with the standard <code>if-else</code> algorithm. Particularly, is it faster or slower than the algorithm using <code>if-else</code> statements?</p>
+</section>
+<section id="q2." class="level2">
+<h2>Q2.</h2>
+<p>An area of unit circle can be approximated using Monte Carlo methods. Monte Carlo methods are one of the most important areas of scientific computing. Along the way we will also learn how to generate random numbers (technically pseudo-random numbers) in <code>C++</code>.</p>
+<p>Essentially idea is as follows. Let us create a lot of random points in a square <span class="math inline">\([0,1]\times[0, 1]\)</span>. A subset of these points will lie in a cricle centered at <span class="math inline">\(0.5\)</span> with a radius of <span class="math inline">\(0.5\)</span>. We can count the number of points that fall inside the circle. Then as the total number of points increases, area of the circle can be approximated by</p>
+<p><span class="math display">\[ \frac{\mbox{# of points inside the circle}}{\mbox{Total # of points}} = \frac{\mbox{Area of circle}}{\mbox{Area of unity square}}\]</span>.</p>
+<p>Since we know that the radius of circle is <span class="math inline">\(0.5\)</span>, this method can also be viewed as a method of approximating the value of <span class="math inline">\(\pi\)</span>.</p>
+<p>There are a few key things to notice.</p>
+<ol type="1">
+<li>Random numbers can be generated in <code>C++</code> using <code>rand()</code> defined in <code>cstdlib</code> (<code>C</code>’s <code>stdlib</code> library). Since computers are deterministic in nature, true random numbers cannot be generated on computers. We generate what are called as <code>Pseudorandom</code> numbers. Many specialised algorithms exists for this<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. <code>rand()</code> generates uniformly distributed integer random number in the range of <span class="math inline">\(0\)</span> to <code>RAND_MAX</code> (which is defined in <code>cstdlib</code> header file). Following code is a standard way of generating random number of type <code>double</code> in the range <span class="math inline">\([0, 1]\)</span>.</li>
+</ol>
+<div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><a class="sourceLine" id="cb2-1" title="1"><span class="pp">#include </span><span class="im">&lt;cstdlib&gt;</span></a>
+<a class="sourceLine" id="cb2-2" title="2"></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="dt">double</span> randomNumber;</a>
+<a class="sourceLine" id="cb2-4" title="4">randomNumber = <span class="dt">double</span>(rand())/RAND_MAX;</a></code></pre></div>
+<ol start="2" type="1">
+<li><code>rand()</code> generates a sequence of integers randomly. However, it is not truly random. It depends on the <em>seed</em> provided to <code>rand()</code>. Ordinarily, <code>rand()</code> function will use the current system clock time as seed. Hence, every time we call the function, we get a different sequence. However, seed can be set to generate the same sequence of random numbers(😄). The seed is set using <code>srand</code> at the beginning of the program.</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode cpp"><code class="sourceCode cpp"><a class="sourceLine" id="cb3-1" title="1">srand(<span class="dv">1</span>);</a>
+<a class="sourceLine" id="cb3-2" title="2">rand();</a></code></pre></div>
+<ol start="3" type="1">
+<li>Generating a random point in the square <span class="math inline">\([0,1]\times[0, 1]\)</span> means picking the <code>x</code> and <code>y</code> coordinates of the point randomly. Hence, two calls to the <code>rand()</code> function will be required to generate a point.</li>
+</ol>
+<p>The input to the program is the precision to which the area is to be calculated and the output of the program should be the value of the area of circle. Output 15 digit precise solution using <code>setprecision(15)</code>. Note the difference in the meaning of the word <code>precision</code>. You have to understand the meaning from the context.</p>
+</section>
+<section id="q3." class="level2">
+<h2>Q3.</h2>
+<p>The aim here is to calculate the determinant of a matrix. The program should read the input from <code>matrix.txt</code> and the output of the program should be the value of the determinant. You can use any method you wish. Usually, a recursive function formulation is used by calculating the determinants of smaller and smaller cofactors successively.</p>
+<p>You might use <code>&lt;fstream&gt;</code> header file which includes functionalities for reading and writing to files. More info can be found <a href="http://www.cplusplus.com/doc/tutorial/files/">here</a>.</p>
+<p>A sample matrix file is:</p>
+<pre><code>3
+1 2 3
+4 5 6
+7 8 9</code></pre>
+<p>Here the first line specifies the dimension of the matrix followed by the matrix. The code should work for any <span class="math inline">\(n\)</span>.</p>
+</section>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>http://www.math.utah.edu/~pa/Random/Random.html<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+</body>
+</html>
