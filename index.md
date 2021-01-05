@@ -123,8 +123,13 @@ arrays - `for` loops
 
 ( [30a-break.cpp](./code/30a-break.cpp), [30b-continue.cpp](./code/30b-continue.cpp), [30-switch.cpp](./code/30-switch.cpp) )
 
+#### Lecture 17
 
-<!--#### Lecture 8-->
+functions - inline functions - scope of variables - library creation
+
+( [Video](https://youtu.be/buZIVBSg7q8), [Slides](./lectures/L11.pdf) )
+
+#### Lecture 18
 
 <!--( [Video](), [Slides]() )-->
 
@@ -161,6 +166,8 @@ In a nutshell:
 > language called `Ada`.
 
 A list of major software bugs can be found on this [wiki](https://en.wikipedia.org/wiki/List_of_software_bugs).
+
+- Good explanation of the `gcc` compilation process [here](https://medium.com/@laura.derohan/compiling-c-files-with-gcc-step-by-step-8e78318052). It has been explained for `C` but it is true for all compiled languages. In our discussion in the class, we clubbed together the `compile` and `assemble` step together.
 
 ## Installation steps `gcc` for (compiler) and `geany` (IDE)
 
