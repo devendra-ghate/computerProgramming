@@ -127,11 +127,15 @@ arrays - `for` loops
 
 functions - inline functions - scope of variables - library creation
 
-( [Video](https://youtu.be/buZIVBSg7q8), [Slides](./lectures/L11.pdf) )
+( [Video](https://youtu.be/buZIVBSg7q8), [Slides](./lectureSlides/L11.pdf) )
+
+( [31-functions.cpp](./code/31-functions.cpp), [32-variableScope.cpp](./code/32-variableScope.cpp), [34-recursion.cpp](./code/34-recursion.cpp), [50-globalVariables.cpp](./code/50-globalVariables.cpp), [libraryCreation](./code/libraryCreation.zip) )
 
 #### Lecture 18
 
-<!--( [Video](), [Slides]() )-->
+( [Video](https://youtu.be/IBcKp7qV6qA), [Slides](./lectureSlides/L12.pdf) )
+
+( [35-pointers.cpp](./code/35-pointers.cpp), [36-arrayAsPointer.cpp](./code/36-arrayAsPointer.cpp), [37-pointerOperations.cpp](./code/37-pointerOperations.cpp), [38-pointerToPointer.cpp](./code/38-pointerToPointer.cpp) )
 
 
 
@@ -146,7 +150,7 @@ upcoming lab session on 03-12-2020.
 2. [Assignment 2](./assignments/assignment02.pdf)
 3. [Assignment 3](./assignments/assignment-03.pdf) [Video recording of Lab Session](https://youtu.be/o2Dvm9H_uek)
 4. [Assignment 4](./assignment04.html) [Partial video recording of Lab Session](https://youtu.be/b4hbbUGRyrI)
-5. [Assignment 5](./assignment05.html)
+5. [Assignment 5](./assignment05.html) [Video recording of Lab session](https://youtu.be/fHRx85VKj7o)
 
 ## Quiz
 
@@ -215,7 +219,6 @@ sudo apt-get install geany
 
 ## Programs
 
-
 [18-saveMemory-loop.cpp](./code/18-saveMemory-loop.cpp)
 
 [23-assignmentOperators.cpp](./code/23-assignmentOperators.cpp)
@@ -226,21 +229,7 @@ sudo apt-get install geany
 
 [28-identityMatrix.cpp](./code/28-identityMatrix.cpp)
 
-[31-functions.cpp](./code/31-functions.cpp)
-
-[32-variableScope.cpp](./code/32-variableScope.cpp)
-
 [33-passingArray.cpp](./code/33-passingArray.cpp)
-
-[34-recursion.cpp](./code/34-recursion.cpp)
-
-[35-pointers.cpp](./code/35-pointers.cpp)
-
-[36-arrayAsPointer.cpp](./code/36-arrayAsPointer.cpp)
-
-[37-pointerOperations.cpp](./code/37-pointerOperations.cpp)
-
-[38-pointerToPointer.cpp](./code/38-pointerToPointer.cpp)
 
 [39-new.cpp](./code/39-new.cpp)
 
@@ -266,12 +255,6 @@ sudo apt-get install geany
 
 [49-passingByReference.cpp](./code/49-passingByReference.cpp)
 
-[50-globalVariables.cpp](./code/50-globalVariables.cpp)
-
 [50-structureReference.cpp](./code/50-structureReference.cpp)
 
 [51-functionOverloading.cpp](./code/51-functionOverloading.cpp)
-
-[libraryCreation](./code/libraryCreation.zip)
-
-
