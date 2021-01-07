@@ -133,11 +133,11 @@ functions - inline functions - scope of variables - library creation
 
 #### Lecture 18
 
+intro. to pointers - referencing and dereferencing operators - array pointer
+
 ( [Video](https://youtu.be/IBcKp7qV6qA), [Slides](./lectureSlides/L12.pdf) )
 
 ( [35-pointers.cpp](./code/35-pointers.cpp), [36-arrayAsPointer.cpp](./code/36-arrayAsPointer.cpp), [37-pointerOperations.cpp](./code/37-pointerOperations.cpp), [38-pointerToPointer.cpp](./code/38-pointerToPointer.cpp) )
-
-
 
 ## Assignments
 
@@ -148,9 +148,9 @@ upcoming lab session on 03-12-2020.
 
 1. [Assignment 1](./assignments/assignment01.pdf)
 2. [Assignment 2](./assignments/assignment02.pdf)
-3. [Assignment 3](./assignments/assignment-03.pdf) [Video recording of Lab Session](https://youtu.be/o2Dvm9H_uek)
-4. [Assignment 4](./assignment04.html) [Partial video recording of Lab Session](https://youtu.be/b4hbbUGRyrI)
-5. [Assignment 5](./assignment05.html) [Video recording of Lab session](https://youtu.be/fHRx85VKj7o)
+3. [Assignment 3](./assignments/assignment-03.pdf) ( [Video recording of Lab Session](https://youtu.be/o2Dvm9H_uek) )
+4. [Assignment 4](./assignment04.html) ( [Partial video recording of Lab Session](https://youtu.be/b4hbbUGRyrI) )
+5. [Assignment 5](./assignment05.html) ( [Video recording of Lab session](https://youtu.be/fHRx85VKj7o) )
 
 ## Quiz
 
